@@ -3,7 +3,7 @@ REST API based systemd management
 [![Build Status CircleCI](https://circleci.com/gh/api-routerd/api-routerd.svg?style=svg)](https://circleci.com/gh/api-routerd/api-routerd)
 [![Build Status](https://travis-ci.org/api-routerd/api-routerd.svg?branch=master)](https://travis-ci.org/api-routerd/api-routerd)
 [![HitCount](http://hits.dwyl.io/ssahani/api-routerd/api-routerd.svg)](http://hits.dwyl.io/ssahani/api-routerd/api-routerd)
-[![CodeFactor](https://www.codefactor.io/repository/github/restgw/api-routerd/badge)](https://www.codefactor.io/repository/github/restgw/api-routerd)
+[![CodeFactor](https://www.codefactor.io/repository/github/api-routerd/api-routerd/badge)](https://www.codefactor.io/repository/github/api-routerd/api-routerd)
 [![Go Report Card](https://goreportcard.com/badge/github.com/api-routerd/api-routerd)](https://goreportcard.com/report/github.com/api-routerd/api-routerd)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Coverage Status](https://coveralls.io/repos/github/api-routerd/api-routerd/badge.svg?branch=master)](https://coveralls.io/github/api-routerd/api-routerd?branch=master)

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/RestGW/api-routerd/cmd/share"
+	"github.com/api-routerd/api-routerd/cmd/share"
 )
 
 //Hello JSON message

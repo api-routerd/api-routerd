@@ -18,8 +18,8 @@ SRCS = $(shell git ls-files '*.go')
 PKGS = $(shell go list ./...)
 VERSION := $(shell git describe --tags --abbrev=0)
 REVISION := $(shell git rev-parse --short HEAD)
-LDFLAGS := -X 'github.com/RestGW/api-routerd/config.Version=$(VERSION)' \
-	-X 'github.com/RestGW/api-routerd/config.Revision=$(REVISION)'
+LDFLAGS := -X 'github.com/api-routerd/api-routerd/config.Version=$(VERSION)' \
+	-X 'github.com/api-routerd/api-routerd/config.Revision=$(REVISION)'
 
 all: dep build
 
