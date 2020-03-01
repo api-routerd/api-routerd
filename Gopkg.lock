@@ -2,14 +2,6 @@
 
 
 [[projects]]
-  branch = "master"
-  digest = "1:d48c1ca93dae96684b4475a6e325e941661ab2cbf4f73c08e7fa99da50caea26"
-  name = "github.com/api-routerd/api-routerd"
-  packages = ["cmd/share"]
-  pruneopts = "UT"
-  revision = "58216033c78f4ef8ffe7e112986aa0144e290ffa"
-
-[[projects]]
   digest = "1:e92f5581902c345eb4ceffdcd4a854fb8f73cf436d47d837d1ec98ef1fe0a214"
   name = "github.com/StackExchange/wmi"
   packages = ["."]
@@ -265,7 +257,6 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/api-routerd/api-routerd/cmd/share",
     "github.com/coreos/go-systemd/activation",
     "github.com/coreos/go-systemd/dbus",
     "github.com/coreos/go-systemd/login1",
