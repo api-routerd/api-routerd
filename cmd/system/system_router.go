@@ -5,7 +5,6 @@ package system
 import (
 	"github.com/api-routerd/api-routerd/cmd/system/conf"
 	"github.com/api-routerd/api-routerd/cmd/system/coredump"
-	"github.com/api-routerd/api-routerd/cmd/system/firewalld"
 	"github.com/api-routerd/api-routerd/cmd/system/group"
 	"github.com/api-routerd/api-routerd/cmd/system/hostname"
 	"github.com/api-routerd/api-routerd/cmd/system/journal"
@@ -19,7 +18,6 @@ import (
 	"github.com/api-routerd/api-routerd/cmd/system/user"
 
 	"github.com/gorilla/mux"
-	log "github.com/sirupsen/logrus"
 )
 
 // RegisterRouterSystem register with mux
@@ -31,15 +29,6 @@ func RegisterRouterSystem(router *mux.Router) {
 
 	// coredump
 	coredump.RegisterRouterCoreDump(n)
-
-	// firewalld
-	err := firewalld.Init()
-	if err != nil {
-		log.Errorf("Failed to init firewalld: %s", err)
-		return
-	}
-
-	firewalld.RegisterRouterFirewalld(n)
 
 	// group
 	group.RegisterRouterGroup(n)
