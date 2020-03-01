@@ -1,12 +1,11 @@
-REST API based systemd management
+Manage systemd via REST APIs
 
 [![Build Status CircleCI](https://circleci.com/gh/api-routerd/api-routerd.svg?style=svg)](https://circleci.com/gh/api-routerd/api-routerd)
 [![Build Status](https://travis-ci.org/api-routerd/api-routerd.svg?branch=master)](https://travis-ci.org/api-routerd/api-routerd)
 [![HitCount](http://hits.dwyl.io/ssahani/api-routerd/api-routerd.svg)](http://hits.dwyl.io/ssahani/api-routerd/api-routerd)
 [![CodeFactor](https://www.codefactor.io/repository/github/api-routerd/api-routerd/badge)](https://www.codefactor.io/repository/github/api-routerd/api-routerd)
-[![Go Report Card](https://goreportcard.com/badge/github.com/api-routerd/api-routerd)](https://goreportcard.com/report/github.com/api-routerd/api-routerd)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Coverage Status](https://coveralls.io/repos/github/api-routerd/api-routerd/badge.svg?branch=master)](https://coveralls.io/github/api-routerd/api-routerd?branch=master)
+
 
 
 api-routerd is a cloud-enabled, mobile-ready, a super light weight remote management tool which uses REST API for real time configuration and performance as well as health monitoring for systems (containers) and applications. It provides fast API based monitoring without affecting the system it's running on.
@@ -196,7 +195,6 @@ you can quickly isolate and solve problems. You can create custom versions of an
 
  - Write Tests
  - networkd
- - iptables
 
 License
 ----
